@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/junior",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mirmövsüm Abasov",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "illuminate/database": "^8.24"
+  },
+  "autoload": {
+    "classmap": [
+      "app/Models"
+    ]
+  }
+}

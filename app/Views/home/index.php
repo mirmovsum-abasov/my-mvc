@@ -1,0 +1,1 @@
+Salam <?=$data['name']?>
