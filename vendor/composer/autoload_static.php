@@ -146,14 +146,19 @@ class ComposerStaticInit702ffc2084d8c34f13ebff58f0363745
     );
 
     public static $classMap = array (
+        'App\\Core\\Validation\\Validation' => __DIR__ . '/../..' . '/app/Core/Validation.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'HomeController' => __DIR__ . '/../..' . '/app/Controllers/Front/HomeController.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'app\\Core\\Controller\\Controller' => __DIR__ . '/../..' . '/app/Core/Controller.php',
+        'app\\Core\\Route\\Route' => __DIR__ . '/../..' . '/app/Core/Route.php',
+        'app\\Core\\Session\\Session' => __DIR__ . '/../..' . '/app/Core/Session.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
